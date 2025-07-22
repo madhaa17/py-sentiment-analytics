@@ -17,7 +17,7 @@ st.markdown("Masukkan teks atau upload file CSV untuk menganalisis sentimen (pos
 # ========== Data & Preprocessing ==========
 cols = ['sentiment', 'id', 'date', 'query', 'user', 'text']
 # df = pd.read_csv('data/training.1600000.processed.noemoticon.csv', encoding='latin-1', names=cols)
-df = pd.read_csv('./sample/sample_reviews.csv', encoding='latin-1', names=cols)
+df = pd.read_csv('../sample/sample_reviews.csv', encoding='latin-1', names=cols)
 df['sentiment'] = df['sentiment'].replace(4, 1)
 
 def clean_text(text):

@@ -14,6 +14,8 @@ env/
 data/*.csv
 data/*.zip
 
+!sample/sample_reviews.csv
+
 # Streamlit
 .streamlit/config.toml
 
@@ -24,11 +26,6 @@ data/*.zip
 # OS
 .DS_Store
 Thumbs.db
-
-# Data & model
-data/
-*.joblib
-*.csv
 
 # Env
 venv/

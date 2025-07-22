@@ -25,3 +25,15 @@ data/*.zip
 # OS
 .DS_Store
 Thumbs.db
+
+# Data & model
+model/
+data/
+*.pkl
+*.joblib
+*.csv
+
+# Env
+venv/
+__pycache__/
+*.pyc

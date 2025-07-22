@@ -8,3 +8,4 @@ jupyterlab
 joblib
 kaggle
 streamlit
+wordcloud
